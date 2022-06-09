@@ -1,0 +1,24 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+AlignConsecutiveAssignments: Consecutive
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AlwaysBreakTemplateDeclarations: Yes
+BreakBeforeBraces: Custom
+BreakConstructorInitializers: BeforeComma
+BraceWrapping:
+  AfterClass: true
+  AfterStruct: true
+  AfterControlStatement: Always
+  AfterFunction: true
+BreakBeforeBinaryOperators: NonAssignment
+ColumnLimit: 100
+FixNamespaceComments: false
+PackConstructorInitializers: CurrentLine
+IndentWidth: 4
+SortIncludes: CaseSensitive
+PointerAlignment: Left
+TabWidth: 4
