@@ -17,7 +17,6 @@ BraceWrapping:
 BreakBeforeBinaryOperators: NonAssignment
 ColumnLimit: 100
 FixNamespaceComments: false
-PackConstructorInitializers: CurrentLine
 IndentWidth: 4
 SortIncludes: CaseSensitive
 PointerAlignment: Left

@@ -25,6 +25,13 @@ FetchContent_Declare(fmt
         )
 FetchContent_MakeAvailable(fmt)
 
+FetchContent_Declare(magic_enum
+        GIT_REPOSITORY https://github.com/Neargye/magic_enum.git
+        GIT_TAG v0.8.1
+        GIT_SHALLOW ON
+        )
+FetchContent_MakeAvailable(magic_enum)
+
 # Common lib/exe properties
 add_library(project_options INTERFACE)
 add_library(fire::project_options ALIAS project_options)
@@ -55,6 +62,7 @@ target_link_libraries(fire
         PUBLIC
         Boost::pfr
         fmt::fmt
+        magic_enum::magic_enum
 
         PRIVATE
         project_options
